@@ -70,6 +70,9 @@ message.delete()
   message.channel.send(`${message.author.username} Just left. OOF.`)
   message.member.kick()
 }
+if(message.content === "Beds") {
+  message.channel.send("Are Dragons?")
+}
 })
 
 client.login(process.env.token)
