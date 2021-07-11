@@ -71,7 +71,7 @@ message.delete()
   message.member.kick()
 }
 if(message.content === "Beds") {
-  message.channel.send("Are Dragons?")
+  message.channel.send("Are Dragons.")
 }
 })
 
